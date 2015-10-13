@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs$
+<plist version="1.0">
+<dict>
+        <key>Label</key>
+        <string>com.jamfsoftware.priority.plist</string>
+        <key>ProgramArguments</key>
+        <array>
+                <string>/usr/sbin/jamf</string>
+                <string>policy</string>
+                <string>-trigger</string>
+                <string>priority</string>
+        </array>
+        <key>StartInterval</key>
+        <integer>120</integer>
+        <key>UserName</key>
+        <string>root</string>
+</dict>
+</plist>
